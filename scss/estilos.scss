@@ -1,0 +1,256 @@
+$negrita: 800;
+$light: 100;
+$color-dark: black;
+$color-gris-dark: rgb(12, 12, 12);
+$color-gris: rgb(19,19,19);
+$color-cian: rgb(3, 201, 201);
+$color-white: white;
+
+body {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: $color-cian;
+    background-color: $color-dark;
+
+    padding-top: 95px;
+
+    h2, h3 {
+        
+        font-weight:$negrita !important;
+        text-transform: uppercase;
+
+    }
+
+    p {
+        font-weight: $light;
+    }
+
+
+}
+
+/*Estilos del Nav*/
+header {
+    
+    .navbar {
+        
+        background-color: $color-gris-dark !important;
+    
+        a {
+            font-weight: $negrita;
+
+        }
+        
+        .logo {
+                width: 80px;
+                height: 80px;
+            }
+
+        .navbar-brand, .nav-link {
+            color: $color-white !important;
+            transition: 0.5s;
+            &:hover {
+                color: $color-cian !important;
+            }
+        }
+
+        .btn-secondary {
+            background-color: $color-gris;
+
+            &:hover {
+                background-color: $color-cian;
+            }
+        }
+
+        
+        .navbar-toggler {
+            background-color: $color-gris;
+            color: $color-white;
+        
+        }
+
+    }
+
+}
+
+
+
+main {
+    
+    text-align: center;
+    h2 {
+        text-align: center;
+    }
+
+    /*Estilos del Carousel*/
+    .carousel-inner {
+        .carousel-item {
+            .img-noticia {
+            height: 535px;
+            }
+
+            .carousel-caption {
+ 
+                background-color: rgba(12, 12, 12, 0.692);
+                border-radius: 5px;
+            }
+        }
+    }
+
+    /*Estilos de los articulos principales*/
+    .card {
+        text-align: center;
+        background-color: $color-dark;
+        border: 1px solid $color-white;
+        transition: 0.5s;
+        &:hover {
+            border: 1px solid $color-cian;
+        }
+        .card-img-top {
+            height: 300px !important;
+            transition: 0.5s;
+            &:hover {
+                filter:brightness(50%) ;
+            }
+        }
+
+        .btn-info {
+            background-color: $color-cian;
+            transition: 0.5s;
+            &:hover {
+                filter:brightness(50%) ;
+            }
+        }
+
+    }
+
+    .card-banda {
+        
+        @media (max-width: 768px){
+            margin: auto auto;
+            width: 70%;
+            
+        }
+        
+
+    }
+
+    /*Estilos de la sección biografía de la banda*/
+
+    .biografia {
+
+        text-align: center;
+        .img-perfil-banda {
+        border-radius: 50% !important;
+        width: auto;
+        height: 350px;
+        }
+
+        @media (max-width: 991.98px) {
+            .img-perfil-banda {
+                width: 350px;
+                height: 350px;
+                }
+        }
+
+        .btn-info {
+            background-color: $color-cian;
+            transition: 0.5s;
+            
+            &:hover {
+                filter:brightness(50%) ;
+
+            }
+
+            a{
+                color:$color-dark;
+                text-decoration: none;
+            }
+        }
+
+        .btn-secondary {
+            background-color: $color-gris;
+
+            &:hover {
+                background-color: $color-cian;
+            }
+
+            
+        }
+
+        p {
+            color:$color-white;
+        }
+        
+    }
+
+    /*Estilos de la sección discografia de la banda*/
+
+    .discografia {
+        text-align: center;
+
+        .card-disco {
+            a {color:$color-cian;
+                text-decoration: none;
+            }
+            .card-img-top {
+                height: 250px !important;
+
+            }
+            @media (max-width: 768px){
+                width: 80%;
+                margin: auto auto;
+
+                .card-img-top {
+                    height: 350px !important;
+    
+                }
+
+
+
+            }
+        }
+
+
+
+    }
+    
+
+}
+
+
+
+/*Estilos del Footer*/
+.footer {
+
+    .footer-menu {
+        background-color: $color-gris;
+        h3 {
+            text-transform: uppercase;
+        }
+
+        p a, .social-media-icon {
+            color: $color-white;
+            text-decoration: none;
+            transition: 0.5s;
+
+            &:hover {
+                color: $color-cian;
+            }
+        }
+    }
+    
+    .footer-legal {
+        background-color: $color-gris-dark;
+        color: rgba(255, 255, 255, 0.377);
+        a {
+            color: $color-cian;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+      
+    }
+    
+
+    
+    
+}
+

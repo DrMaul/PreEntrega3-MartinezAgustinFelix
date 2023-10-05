@@ -1,0 +1,170 @@
+@charset "UTF-8";
+body {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  color: rgb(3, 201, 201);
+  background-color: black;
+  padding-top: 95px;
+}
+body h2, body h3 {
+  font-weight: 800 !important;
+  text-transform: uppercase;
+}
+body p {
+  font-weight: 100;
+}
+
+/*Estilos del Nav*/
+header .navbar {
+  background-color: rgb(12, 12, 12) !important;
+}
+header .navbar a {
+  font-weight: 800;
+}
+header .navbar .logo {
+  width: 80px;
+  height: 80px;
+}
+header .navbar .navbar-brand, header .navbar .nav-link {
+  color: white !important;
+  transition: 0.5s;
+}
+header .navbar .navbar-brand:hover, header .navbar .nav-link:hover {
+  color: rgb(3, 201, 201) !important;
+}
+header .navbar .btn-secondary {
+  background-color: rgb(19, 19, 19);
+}
+header .navbar .btn-secondary:hover {
+  background-color: rgb(3, 201, 201);
+}
+header .navbar .navbar-toggler {
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+
+main {
+  text-align: center;
+  /*Estilos del Carousel*/
+  /*Estilos de los articulos principales*/
+  /*Estilos de la sección biografía de la banda*/
+  /*Estilos de la sección discografia de la banda*/
+}
+main h2 {
+  text-align: center;
+}
+main .carousel-inner .carousel-item .img-noticia {
+  height: 535px;
+}
+main .carousel-inner .carousel-item .carousel-caption {
+  background-color: rgba(12, 12, 12, 0.692);
+  border-radius: 5px;
+}
+main .card {
+  text-align: center;
+  background-color: black;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+main .card:hover {
+  border: 1px solid rgb(3, 201, 201);
+}
+main .card .card-img-top {
+  height: 300px !important;
+  transition: 0.5s;
+}
+main .card .card-img-top:hover {
+  filter: brightness(50%);
+}
+main .card .btn-info {
+  background-color: rgb(3, 201, 201);
+  transition: 0.5s;
+}
+main .card .btn-info:hover {
+  filter: brightness(50%);
+}
+@media (max-width: 768px) {
+  main .card-banda {
+    margin: auto auto;
+    width: 70%;
+  }
+}
+main .biografia {
+  text-align: center;
+}
+main .biografia .img-perfil-banda {
+  border-radius: 50% !important;
+  width: auto;
+  height: 350px;
+}
+@media (max-width: 991.98px) {
+  main .biografia .img-perfil-banda {
+    width: 350px;
+    height: 350px;
+  }
+}
+main .biografia .btn-info {
+  background-color: rgb(3, 201, 201);
+  transition: 0.5s;
+}
+main .biografia .btn-info:hover {
+  filter: brightness(50%);
+}
+main .biografia .btn-info a {
+  color: black;
+  text-decoration: none;
+}
+main .biografia .btn-secondary {
+  background-color: rgb(19, 19, 19);
+}
+main .biografia .btn-secondary:hover {
+  background-color: rgb(3, 201, 201);
+}
+main .biografia p {
+  color: white;
+}
+main .discografia {
+  text-align: center;
+}
+main .discografia .card-disco a {
+  color: rgb(3, 201, 201);
+  text-decoration: none;
+}
+main .discografia .card-disco .card-img-top {
+  height: 250px !important;
+}
+@media (max-width: 768px) {
+  main .discografia .card-disco {
+    width: 80%;
+    margin: auto auto;
+  }
+  main .discografia .card-disco .card-img-top {
+    height: 350px !important;
+  }
+}
+
+/*Estilos del Footer*/
+.footer .footer-menu {
+  background-color: rgb(19, 19, 19);
+}
+.footer .footer-menu h3 {
+  text-transform: uppercase;
+}
+.footer .footer-menu p a, .footer .footer-menu .social-media-icon {
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.footer .footer-menu p a:hover, .footer .footer-menu .social-media-icon:hover {
+  color: rgb(3, 201, 201);
+}
+.footer .footer-legal {
+  background-color: rgb(12, 12, 12);
+  color: rgba(255, 255, 255, 0.377);
+}
+.footer .footer-legal a {
+  color: rgb(3, 201, 201);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=estilos.css.map */
